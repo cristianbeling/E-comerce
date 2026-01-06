@@ -1,4 +1,50 @@
 body{
     font-family: var(--fonte-principal);
     color: #333333;
+    background-color: #333333;
+}
+
+.header{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 28px;
+    background-color: #ffffff;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.center-nav ul{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.center-nav a, .right-nav a{
+    font-size: 1.25rem;
+}
+
+.center-nav a:hover, .right-nav a:hover{
+    color: #7c3aed;
+}
+
+.right-nav ul{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.right-nav img{
+    height: 20px;
+}
+.right-nav a:hover img{
+    opacity: 0.7;
 }
