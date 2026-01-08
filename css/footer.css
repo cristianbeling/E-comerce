@@ -1,0 +1,27 @@
+.site-footer{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer-content{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    gap: 155px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.footer-nav ul{
+    display: flex;
+}
+
+.footer-nav ul ul{
+    display: flex;
+    flex-direction: column;
+}
