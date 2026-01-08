@@ -64,3 +64,16 @@
     font-weight: 400;
     margin-bottom: 10px;
 }
+
+.card-subtitle{
+    color: #ededed;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
+    
+}
