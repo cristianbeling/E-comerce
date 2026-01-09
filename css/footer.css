@@ -19,9 +19,38 @@
 
 .footer-nav ul{
     display: flex;
+    padding: 0;
+    gap: 20px;
 }
 
 .footer-nav ul ul{
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    padding: 0;
+}
+
+.footer-nav strong{
+    color: #ededed;
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    display: block;
+    font-weight: 400;
+}
+
+.footer-nav li{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-nav li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.newsletter-form input{
+    border-radius: 30px;
+    color: #AAAAAA;
+    padding: 12px 20px;
+    width: 344px;
 }
