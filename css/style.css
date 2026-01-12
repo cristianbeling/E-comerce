@@ -21,7 +21,7 @@ main{
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 30%);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
@@ -64,9 +64,11 @@ main{
 
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    flex: 1;
+    margin-left: 10rem;
 }
 
 .menu-toggle{
