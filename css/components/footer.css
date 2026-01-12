@@ -1,3 +1,4 @@
+/* footer.css */
 .site-footer{
     background-color: #333333;
     color: #ffffff;
@@ -6,12 +7,12 @@
 .footer-content{
     max-width: 1360px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-left{
+.footer-right{
     display: flex;
     flex-direction: column;
     gap: 3.125rem;
@@ -19,57 +20,54 @@
 
 .footer-nav ul{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .footer-nav ul ul{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .footer-nav strong{
-    color: #ededed;
+    color: #EDEDED;
     font-size: 1.25rem;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     display: block;
     font-weight: 400;
 }
 
-.footer-nav li{
-    margin-bottom: 10px;
+.footer-nav li a{
     color: #ffffff;
 }
 
 .footer-nav li a:hover{
     text-decoration: underline;
-    cursor: pointer;
 }
 
 .newsletter-form{
     display: flex;
     flex-direction: column;
-    
 }
 
 .newsletter-form input{
     border-radius: 30px;
     color: #AAAAAA;
-    padding: 12px 20px;
-    width: 344px;
+    padding: 0.75rem 1.25rem;
+    width: 21.5rem;
 }
 
-.footer-socials span{
-    margin-bottom: 16px;
+.footer-social span{
+    margin-bottom: 1rem;
     display: block;
 }
 
-.footer-socials ul {
+.footer-social ul{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
-.footer-socials ul li a:hover img{
+.footer-social li a:hover img{
     opacity: 0.7;
 }
 
@@ -79,24 +77,24 @@
     padding: 20px 0;
 }
 
-@media (max-width:1000px) {
-    .footer-content{
-        flex-direction: column;
-        gap: 2rem;
-        padding: 2rem 1rem;
-    }
+@media (max-width: 1000px) {
+	.footer-content{
+		flex-direction: column;
+		gap: 2rem;
+		padding: 2rem 1rem;
+	}
 
-    .footer-nav ul{
-        flex-direction: column;
-        gap: 2rem;
-    }
+	.footer-nav ul{
+		flex-direction: column;
+		gap: 2rem;
+	}
 
-    .footer-socials ul{
-        gap: 1rem;
-    }
+	.footer-social ul{
+		gap: 1rem;
+	}
 
-    .footer-copy{
-        font-size: 1rem;
-        padding: 1.5rem 0 1.5rem;
-    }
+	.footer-copy{
+		font-size: 1rem;
+		padding: 1.5rem 0 1.5rem;
+	}
 }
