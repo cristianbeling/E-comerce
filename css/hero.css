@@ -67,3 +67,31 @@
     color: #ffffff;
     border-color: #6329a2;
 }
+
+@media (max-width: 768px){
+    .hero-section{
+        height: 660px;
+        background-image: url(../imagens/banners/hero.jpg);
+    }
+
+    .hero-overlay{
+        padding: 0;
+    }
+
+    .hero-conntent .hero-title{
+        font-size: 1.5rem;
+    }
+
+    .hero-conntent .hero-buttons{
+        font-size: 1.25rem;
+    }
+
+    .hero-conntent{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .btn{
+        font-size: 1.2rem;
+    }
+}
